@@ -1,6 +1,6 @@
 import logo from './round-clm.png';
 import './App.css';
-import { Navigation } from './components'
+import { Navigation, Carouseller } from './components'
 
 
 function App() {
@@ -15,6 +15,7 @@ function App() {
         </p>
       </header>
     </div>
+    <Carouseller />
   </>
   );
 }
