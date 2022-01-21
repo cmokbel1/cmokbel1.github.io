@@ -1,1 +1,1 @@
-export { default } from './Navbar.js'
+export { Navigation } from './Navbar.js'
