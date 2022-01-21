@@ -1,7 +1,6 @@
 // important shit
 import React, { Component } from 'react';
 import { Carousel, CarouselIndicators, CarouselCaption, CarouselItem, CarouselControl } from 'reactstrap';
-import './Carousel.css';
 
 // images n shit
 import image1 from './images/4uWorkout.png';
