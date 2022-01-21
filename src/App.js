@@ -1,24 +1,20 @@
 import logo from './round-clm.png';
 import './App.css';
+import { Navigation } from './components'
 
 function App() {
   return (
+    <>
+    <Navigation />
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Claude Mokbel
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          View Portfolio
-        </a>
       </header>
     </div>
+  </>
   );
 }
 
