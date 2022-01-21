@@ -16,42 +16,50 @@ const items = [
   {
     src: image1,
     altText: 'Workout Generator',
-    caption: '4uWorkout'
+    caption: '4uWorkout',
+    site: 'https://jazminejose.github.io/project_1/'
   },
   {
     src: image2,
     altText: 'Find a Robot',
-    caption: 'Chore Door Game'
+    caption: 'Chore Door Game',
+    site: 'https://cmokbel1.github.io/Chore-Door-Game-Clone/'
   },
   {
     src: image3,
     altText: 'Real Time Chat Rooms',
-    caption: 'Chat Wallet'
+    caption: 'Chat Wallet',
+    site: 'https://chat-wallet.herokuapp.com/'
   },
   {
     src: image4,
     altText: 'Use Your Time Wisely',
-    caption: 'Day Planner'
+    caption: 'Day Planner',
+    site: 'https://cmokbel1.github.io/Day-Planner/'
   },
   {
     src: image5,
     altText: 'Create and Store Employee Data',
-    caption: 'Employee Tracker'
+    caption: 'Employee Tracker',
+    site: 'https://github.com/cmokbel1/Employee-Tracker'
   },
   {
     src: image6,
     altText: 'Random Password Generator',
-    caption: 'Password Generator'
+    caption: 'Password Generator',
+    site: 'https://cmokbel1.github.io/Password-Generator/'
   },
   {
     src: image7,
     altText: 'Blog for Coders',
-    caption: 'Tech-Blog'
+    caption: 'Tech-Blog',
+    site: 'https://blog-about-it-techblog.herokuapp.com/'
   },
   {
     src: image8,
     altText: '5-day Weather Forecast',
-    caption: 'Weather Forecaster'
+    caption: 'Weather Forecaster',
+    site: 'https://cmokbel1.github.io/WeatherAPI/'
   }
 ];
 
@@ -101,7 +109,7 @@ export class Carouseller extends Component {
           onExited={this.onExited}
           key={item.src}
         >
-          <img src={item.src} alt={item.altText} />
+          <a href={item.site}><img src={item.src} alt={item.altText}/></a>
           <CarouselCaption captionText={item.altText} captionHeader={item.caption} />
         </CarouselItem>
       );
