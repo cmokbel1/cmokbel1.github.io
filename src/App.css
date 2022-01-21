@@ -47,5 +47,12 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-size:cover;
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  color: green;
+  background-color: #282c34;
+  font-family:monospace;
 }

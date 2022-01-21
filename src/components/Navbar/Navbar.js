@@ -27,7 +27,7 @@ export class Navigation extends React.Component {
                 <NavLink href="#portfolio">Portfolio</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#resume">Resume</NavLink>
+                <NavLink href="https://docs.google.com/document/d/1qDSDDD5YhWwbehIJk1GwWd21AXvW0KzKfo6XbMRJWbs/">Resume</NavLink>
               </NavItem>
               <NavItem>
                 <NavLink href="https://github.com/cmokbel1">GitHub</NavLink>
