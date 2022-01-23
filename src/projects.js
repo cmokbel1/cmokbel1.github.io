@@ -70,3 +70,5 @@ const projects = [
     img: './images/pwgen.png'
   }
 ]
+
+export default projects

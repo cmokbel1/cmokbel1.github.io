@@ -20,12 +20,12 @@ const Header = (props) => {
             navbar
           >
             <NavItem>
-              <NavLink href="#" id="about" onClick={onLinkClick}>
+              <NavLink onCLick={onLinkClick} id="about">
                 About Me
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="#" id="portfolio" onClick={onLinkClick}>
+              <NavLink onClick={onLinkClick} id="portfolio">
                 Portfolio
               </NavLink>
             </NavItem>
