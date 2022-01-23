@@ -3,7 +3,7 @@ import { Card, Button } from 'reactstrap'
 const ProjCard = (props) => {
   const { project } = props;
   return (
-    <Card style={{ width: '18rem' }}>
+    <Card border="dark" background-color="light">
       <Card.Img variant="top" src="holder.js/100px180" />
       <Card.Body>
         <Card.Title>{project.title}</Card.Title>
