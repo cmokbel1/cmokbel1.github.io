@@ -1,6 +1,6 @@
 import logo from './selfie.png';
 import './App.css';
-import { Header } from './components/Header'
+import { Header } from './components'
 
 
 
