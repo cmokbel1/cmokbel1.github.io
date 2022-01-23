@@ -27,9 +27,11 @@ class App extends Component {
       return (
         <>
           <Header onLinkClick={this.onLinkClick} />
+          <br />
           <main>
             <Portfolio projects={projects} />
           </main>
+          <br />
           <Footer />
         </>
       )
@@ -37,9 +39,11 @@ class App extends Component {
       return (
       <>
         <Header onLinkClick={this.onLinkClick} />
+        <br />
         <main>
           {/* <Contact /> */}
         </main>
+        <br />
         <Footer />
       </>
       )
@@ -47,9 +51,11 @@ class App extends Component {
       return (
         <>
           <Header onLinkClick={this.onLinkClick} />
+          <br />
           <main>
             <About />
           </main>
+          <br />
           <Footer />
         </>
       )

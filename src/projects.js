@@ -36,7 +36,7 @@ const projects = [
   },
   {
     title: 'Weather Forecast',
-    description: '',
+    description: '5 day forecast application that makes use of the openweathermap.org API to produce a forecast of any major city in the world. Users can further save the data they have recently researched in the side bar.',
     gitHub: 'https://github.com/cmokbel1/WeatherAPI',
     liveSite: 'https://cmokbel1.github.io/WeatherAPI/',
     img: './images/weatherAPI.png'
