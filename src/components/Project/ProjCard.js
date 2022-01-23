@@ -4,7 +4,7 @@ const ProjCard = (props) => {
   const { project } = props;
   return (
     <Card border="dark" background-color="light">
-      <Card.Img variant="top" src="holder.js/100px180" />
+      <Card.Img variant="top" src={project.img} />
       <Card.Body>
         <Card.Title>{project.title}</Card.Title>
         <Card.Text>
