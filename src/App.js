@@ -1,12 +1,11 @@
 import logo from './selfie.png';
 import './App.css';
-import { Navigation, Carouseller } from './components'
+
 
 
 function App() {
   return (
     <>
-    <Navigation />
     <br />
     <div className="App">
       <header className="App-header">
@@ -15,12 +14,6 @@ function App() {
           Claude Mokbel
         </h1>
       </header>
-    </div>
-    <hr />
-    <h1>Portfolio</h1>
-    <hr />
-    <div id="portfolio" className="container-fluid">
-    <Carouseller />
     </div>
   </>
   );
