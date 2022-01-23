@@ -1,7 +1,8 @@
+
 const Footer = (props) => {
   return (
-    <div color="success">
-    <footer className="container">
+    <div id='foot' color="success">
+    <footer>
       <p>Copyright 2022 Claude Mokbel</p>
     </footer>
     </div>

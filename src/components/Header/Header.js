@@ -10,7 +10,7 @@ const Header = (props) => {
         expand="md"
         dark
       >
-        <NavbarBrand href="/">
+        <NavbarBrand>
           CLM
         </NavbarBrand>
         <NavbarToggler />
@@ -20,7 +20,7 @@ const Header = (props) => {
             navbar
           >
             <NavItem>
-              <NavLink onCLick={onLinkClick} id="about">
+              <NavLink onClick={onLinkClick} id="about">
                 About Me
               </NavLink>
             </NavItem>
