@@ -10,8 +10,8 @@ const ProjCard = (props) => {
         <Card.Text>
          {project.description}
         </Card.Text>
-        <Button variant="primary">{project.Github}</Button>
-        <Button variant="primary">{project.LiveSite}</Button>
+        <Button variant="primary">{project.gitHub}</Button>
+        <Button variant="primary">{project.liveSite}</Button>
       </Card.Body>
     </Card>
   )
