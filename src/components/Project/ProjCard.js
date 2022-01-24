@@ -8,7 +8,7 @@ const ProjCard = (props) => {
   const { project } = props;
   return (
     <>
-      <Card border="light" color="dark" className="col-sm-3">
+      <Card border="light" color="dark" className="col-sm-3 mb-4">
         <CardImg variant="top" src={project.img} height="200px" width="100%" />
         <CardBody>
           <CardTitle>{project.title}</CardTitle>
@@ -17,7 +17,7 @@ const ProjCard = (props) => {
           </CardText>
         </CardBody>
         <Button variant="primary" color="info" href={project.gitHub}>GitHub</Button>
-        <Button variant="primary" color="danger" href={project.liveSite}>Live View</Button>
+        <Button variant="primary" color="warning" href={project.liveSite}>Live View</Button>
     </Card>
     <br />
     </>
