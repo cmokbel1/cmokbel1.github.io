@@ -1,5 +1,6 @@
 body {
   background-color: #282c34;
+  padding-top: 45px;
 }
 
 .App {
@@ -47,6 +48,17 @@ body {
 h1 {
   text-align: center;
   color: green;
+  background-color: ;
+  font-family: monospace;
+}
+
+#foot {
+  text-align: center;
+  background-color: rgb(80, 153, 80);
+}
+
+main {
   background-color: #282c34;
-  font-family:monospace;
+  color: whitesmoke;
+  align-items: center;
 }
