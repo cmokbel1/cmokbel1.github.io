@@ -1,6 +1,6 @@
 import image1 from './images/4uWorkout.png';
-// import image2 from '';
-// import image3 from '';
+import image2 from './images/ReadMeGen.png';
+import image3 from './images/SocialAPI.png';
 import image4 from './images/dayplanner.png';
 import image5 from './images/chore-door.png';
 import image6 from './images/weatherAPI.png';
@@ -22,14 +22,14 @@ const projects = [
     description: 'This project was built to allow myself and other users the opportunity to create a README.md file without the hassle of manually inputting the information needed.',
     gitHub: 'https://github.com/cmokbel1/ReadMeGenerator',
     liveSite: 'https://www.youtube.com/watch?v=yLcLP55G0d0',
-    img: ''
+    img: image2
   },
   {
     title: 'Social Media API',
     description: 'This project was built as a back-end development for a newly made social media company. One can create users, retrieve all or one of them, update a user and delete users. Further one can add friends and remove them. Users have the capability to create posts and leave comments via thoughts and reactions. We can delete thoughts and reactions as well. This project using a mongoDB that allows for seamless storage of unrelated data and makes it easy to retrieve as well.',
     gitHub: 'https://github.com/cmokbel1/Social-Media-API',
     liveSite: 'https://www.youtube.com/watch?v=D4DBZyZB4ro',
-    img: ''
+    img: image3
   },
   {
     title: 'Day Planner',
