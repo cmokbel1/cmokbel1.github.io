@@ -2,6 +2,7 @@ import './App.css';
 import { Header, Footer, Portfolio, About } from './components'
 import projects from './projects.js'
 import { Component } from 'react'
+import React from 'react'
 
 class App extends Component {
   constructor(props) {

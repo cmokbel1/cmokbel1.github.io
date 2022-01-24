@@ -1,10 +1,21 @@
+import image1 from './images/4uWorkout.png';
+// import image2 from '';
+// import image3 from '';
+import image4 from './images/dayplanner.png';
+import image5 from './images/chore-door.png';
+import image6 from './images/weatherAPI.png';
+import image7 from './images/tbl.png';
+import image8 from './images/employee-tracker.png';
+import image9 from './images/CW.png';
+import image10 from './images/pwgen.png';
+
 const projects = [
   {
     title: '4uWorkout',
     description:'This application allows users to generate random workouts based on specific body parts while simultaneously generating a playlist of music to go along with the workout.',
     gitHub: 'https://github.com/cmokbel1/project_1',
     liveSite: 'https://jazminejose.github.io/project_1/',
-    img: './images/4uWorkout.png'
+    img: image1
   },
   {
     title: 'Read Me Generator',
@@ -25,49 +36,49 @@ const projects = [
     description: 'Users can open the webpage and plan out there day with a seamless process. One can save information by clicking save, and simply click the text area to edit and save again. When the hour comes to pass the slot will turn gray. when the hour is current it is red, and when it is a future time the slot is green.',
     gitHub: 'https://github.com/cmokbel1/Day-Planner',
     liveSite: 'https://cmokbel1.github.io/Day-Planner/',
-    img: './images/dayplanner.png'
+    img: image4
   },
   {
     title: 'Chore Door Game',
-    description: '',
+    description: 'This game uses javascript to manipulate photos on the page. Users can click on doors until they find the chore bot! if they find the chore bot before they have clicked through all the doors, then they lose. if they find the chore bot last, they win! There is a fail safe that does not allow the user to click through the doors once the bot has been found. Therefore, users must restart if they lose.',
     gitHub: 'https://github.com/cmokbel1/Chore-Door-Game-Clone',
     liveSite: 'https://cmokbel1.github.io/Chore-Door-Game-Clone/',
-    img: './images/chore-door.png'
+    img: image5
   },
   {
     title: 'Weather Forecast',
     description: '5 day forecast application that makes use of the openweathermap.org API to produce a forecast of any major city in the world. Users can further save the data they have recently researched in the side bar.',
     gitHub: 'https://github.com/cmokbel1/WeatherAPI',
     liveSite: 'https://cmokbel1.github.io/WeatherAPI/',
-    img: './images/weatherAPI.png'
+    img: image6
   },
   {
     title: 'Tech Blog',
     description: 'This project is a combination of methods learned in Javascript. Models and Routes are used to populate a seemingly empty webpage with blog posts created by users that are logged in via passport and authenticated with a json webtoken. User information is stored in a JAWSDB database using mySQL tables. Further, Users can comment on other posts made by other users given they are registered on the website.',
     gitHub: 'https://github.com/cmokbel1/Tech-Blog',
     liveSite: 'https://blog-about-it-techblog.herokuapp.com',
-    img: './images/tbl.png'
+    img: image7
   },
   {
     title: 'Employee Tracker',
     description: 'This project is a collaboration of multiple parts. A mySQL back-end server is connected to multiple files in Javascript that allow the user to run the application wholely in the terminal. Users have the option to track employee data. One can view departments, roles, and employees. Further a user has the opportunity to add employees, roles, and departments. Along with these features the user can also delete employees, roles, or departments. Additional features include updating employee roles, and updating the manager of an employee.',
     gitHub: 'https://github.com/cmokbel1/Employee-Tracker',
     liveSite: 'https://www.youtube.com/watch?v=ZTYxlquJVmk',
-    img: './images/employee-tracker.png'
+    img: image8
   },
   {
     title: 'Chat Wallet',
     description: 'Chat Wallet is an web based app that allows users to chat with other individuals about each others hobbies and interests. Users can register for an account, sign in, sign out and enter varying chatrooms that are developed using socket.io. this application uses passport and jsonwebtoken to authenticate users and verify user information for access to profile information and the chat rooms.',
     gitHub: 'https://github.com/cmokbel1/chatWallet',
     liveSite: 'chat-wallet.herokuapp.com/',
-    img: './images/CW.png'
+    img: image9
   },
   {
     title: 'Password Generator',
     description: 'an application that randomizes passwords for users based on user specifications. Passwords can be between 8 and 128 characters long, contain uppercase or lowercase letter, special characters, or numbers.',
     gitHub: 'https://github.com/cmokbel1/Password-Generator',
     liveSite: 'https://cmokbel1.github.io/Password-Generator/ ',
-    img: './images/pwgen.png'
+    img: image10
   }
 ]
 
