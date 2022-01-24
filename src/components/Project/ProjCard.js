@@ -8,8 +8,8 @@ const ProjCard = (props) => {
   const { project } = props;
   return (
     <>
-      <Card border="light" color="dark" className="col-sm-3 mb-4 white-border">
-        <CardImg variant="top" src={project.img} height="200px" width="100%" />
+      <Card color="dark" className="col-sm-3 mb-4 white-border">
+        <CardImg variant="top" src={project.img} />
         <CardBody>
           <CardTitle>{project.title}</CardTitle>
           <CardText>
