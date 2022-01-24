@@ -30,6 +30,7 @@ class App extends Component {
           <Header onLinkClick={this.onLinkClick} />
           <main>
             <Portfolio projects={projects} />
+            <br />
             <Footer />
           </main>
         </>
