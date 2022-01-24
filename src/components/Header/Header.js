@@ -36,6 +36,11 @@ const Header = (props) => {
               </NavLink>
             </NavItem>
             <NavItem>
+              <NavLink onClick={onLinkClick} id="contact">
+                Contact
+              </NavLink>
+            </NavItem>
+            <NavItem>
               <NavLink id="git" href="https://github.com/cmokbel1">
                 GitHub
               </NavLink>
