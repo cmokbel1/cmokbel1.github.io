@@ -1,5 +1,5 @@
 import './App.css';
-import { Header, Footer, Portfolio, About, Contact } from './components'
+import { Header, Footer, Portfolio, About, ContactForm } from './components'
 import projects from './projects.js'
 import { Component } from 'react'
 import React from 'react'
@@ -40,7 +40,7 @@ class App extends Component {
         <>
           <Header onLinkClick={this.onLinkClick} />
           <main>
-            <Contact />
+            <ContactForm />
             <Footer />
           </main>
         </>
