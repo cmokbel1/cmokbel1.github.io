@@ -11,6 +11,8 @@ body {
 .App-logo {
   height: 400px;
   pointer-events: none;
+  border-radius: 75px;
+  border: whitesmoke 2px solid;
 }
 
 /* @media (prefers-reduced-motion: no-preference) {
@@ -48,16 +50,17 @@ body {
 h1 {
   text-align: center;
   color: green;
-  background-color: ;
   font-family: monospace;
 }
 
 #foot {
   text-align: center;
-  background-color: rgb(80, 153, 80);
+  background-color: rgb(25, 135, 84);
+  color: whitesmoke;
 }
 
 main {
+  padding-top: 50px;
   background-color: #282c34;
   color: whitesmoke;
   align-items: center;

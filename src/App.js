@@ -28,36 +28,30 @@ class App extends Component {
       return (
         <>
           <Header onLinkClick={this.onLinkClick} />
-          <br />
           <main>
             <Portfolio projects={projects} />
+            <Footer />
           </main>
-          <br />
-          <Footer />
         </>
       )
-    } else if(this.state.mode ==='contact') {
+    } else if (this.state.mode === 'contact') {
       return (
-      <>
-        <Header onLinkClick={this.onLinkClick} />
-        <br />
-        <main>
-          {/* <Contact /> */}
-        </main>
-        <br />
-        <Footer />
-      </>
+        <>
+          <Header onLinkClick={this.onLinkClick} />
+          <main>
+            {/* <Contact /> */}
+            <Footer />
+          </main>
+        </>
       )
     } else {
       return (
         <>
           <Header onLinkClick={this.onLinkClick} />
-          <br />
           <main>
             <About />
+            <Footer />
           </main>
-          <br />
-          <Footer />
         </>
       )
     }

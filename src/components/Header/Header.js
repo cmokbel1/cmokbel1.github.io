@@ -14,6 +14,7 @@ const Header = (props) => {
         color="success"
         expand="md"
         fixed="top"
+        dark
       >
         <NavbarBrand>
           CLM
