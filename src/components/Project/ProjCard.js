@@ -19,7 +19,6 @@ const ProjCard = (props) => {
         <Button variant="primary" color="info" href={project.gitHub}>GitHub</Button>
         <Button variant="primary" color="danger" href={project.liveSite}>Live View</Button>
     </Card>
-    <br />
     </>
   )
 }
