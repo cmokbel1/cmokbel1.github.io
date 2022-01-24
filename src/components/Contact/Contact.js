@@ -24,6 +24,7 @@ render() {
          <Label for="name">Message</Label>
          <Input id="message" name="message" type="textarea" placeholder="Hey Claude really loved what I saw in your portfolio and your resume! We would love to hire you on for our upcoming project."></Input>
        </FormGroup>
+       <Button>Send</Button>
      </Form>
    </div>
  )
