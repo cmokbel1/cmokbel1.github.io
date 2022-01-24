@@ -1,20 +1,25 @@
 import { Nav, Navbar, NavbarBrand, NavItem, NavbarToggler, NavLink, NavbarText, Collapse } from 'reactstrap'
-import React from 'react'
+import React, { useState } from 'react';
 
 const Header = (props) => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggle = () => setIsOpen(!isOpen);
+
   const onLinkClick = props.onLinkClick;
+  
   return (
     <>
       <Navbar
         color="success"
         expand="md"
-        dark
+        fixed="top"
       >
         <NavbarBrand>
           CLM
         </NavbarBrand>
-        <NavbarToggler />
-        <Collapse navbar>
+        <NavbarToggler onClick={toggle}/>
+        <Collapse isOpen={isOpen} navbar>
           <Nav
             className="me-auto"
             navbar
