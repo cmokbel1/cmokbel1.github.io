@@ -10,6 +10,7 @@ class App extends Component {
     this.state = {
       mode: 'home'
     }
+    
     this.onLinkClick = this.onLinkClick.bind(this);
   }
 
