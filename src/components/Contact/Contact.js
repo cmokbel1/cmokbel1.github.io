@@ -1,4 +1,4 @@
-import { Component } from 'react'
+import { useState } from 'react'
 import {
   Button,
   Form,
@@ -7,9 +7,23 @@ import {
   Label
 } from 'reactstrap';
 
-class ContactForm extends Component {
+function ContactForm() {
 
-render() {
+  const [contactState, setContactState] = useState({
+    name: '',
+    email: '',
+    message: ''
+  })
+
+  const handleInputChange = ({ target: { name, value } }) => setContactState({ ...contactState, [name]: value })
+
+
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    alert(contactState);
+  }
+
  return (
    <>
    <h5>Contact directly: claudemokbel@gmail.com</h5>
@@ -18,23 +32,22 @@ render() {
      <Form>
        <FormGroup>
          <Label for="name">Name</Label>
-         <Input id="name" name="name" type="text" placeholder="First Name Last Name"></Input>
+         <Input id="name" name="name" onChange={handleInputChange} type="text" value={contactState.name}></Input>
        </FormGroup>
        <FormGroup>
          <Label for="name">e-mail</Label>
-         <Input id="email" name="email" type="text" placeholder="FirstNameLastName@email.com"></Input>
+           <Input id="email" name="email" onChange={handleInputChange} type="text" value={contactState.email}></Input>
        </FormGroup>
        <FormGroup>
          <Label for="name">Message</Label>
-         <Input id="message" name="message" type="textarea" placeholder="Hey Claude, I really loved what I saw in your portfolio and your resume! We would love to hire you on for our upcoming project."></Input>
+           <Input id="message" name="message" onChange={handleInputChange} type="textarea" value={contactState.message} ></Input>
        </FormGroup>
-       <Button>Send</Button>
+       <Button onClick={handleSubmit} disabled={contactState.name<1 && contactState.email <1 && contactState.message<1}>Send</Button>
      </Form>
      <br />
    </div>
    </>
  )
-}
 }
 
 
