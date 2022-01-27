@@ -32,15 +32,15 @@ function ContactForm() {
      <Form>
        <FormGroup>
          <Label for="name">Name</Label>
-         <Input id="name" name="name" onChange={handleInputChange} type="text" value={contactState.name}></Input>
+         <Input id="name" name="name" onChange={handleInputChange} type="text" value={contactState.name} required></Input>
        </FormGroup>
        <FormGroup>
          <Label for="name">e-mail</Label>
-           <Input id="email" name="email" onChange={handleInputChange} type="text" value={contactState.email}></Input>
+           <Input id="email" name="email" onChange={handleInputChange} type="text" value={contactState.email} required></Input>
        </FormGroup>
        <FormGroup>
          <Label for="name">Message</Label>
-           <Input id="message" name="message" onChange={handleInputChange} type="textarea" value={contactState.message} ></Input>
+           <Input id="message" name="message" onChange={handleInputChange} type="textarea" value={contactState.message} required></Input>
        </FormGroup>
        <Button onClick={handleSubmit} disabled={contactState.name<1 && contactState.email <1 && contactState.message<1}>Send</Button>
      </Form>
