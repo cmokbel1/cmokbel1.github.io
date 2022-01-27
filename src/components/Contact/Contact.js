@@ -6,6 +6,7 @@ import {
   Input,
   Label
 } from 'reactstrap';
+import swal from 'sweetalert';
 
 function ContactForm() {
 
@@ -21,7 +22,19 @@ function ContactForm() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    alert(contactState);
+    if(!contactState.name) {
+      swal("Name Required")
+    }
+    else if (!contactState.email) {
+      swal("Email Required")
+    }
+    else if(!contactState.message) {
+      swal("Message Required")
+    } else {
+    swal(`name: ${contactState.name},
+      email: ${contactState.email},
+      message: ${contactState.message}`);
+    }
   }
 
  return (
@@ -42,7 +55,7 @@ function ContactForm() {
          <Label for="name">Message</Label>
            <Input id="message" name="message" onChange={handleInputChange} type="textarea" value={contactState.message} required></Input>
        </FormGroup>
-       <Button onClick={handleSubmit} disabled={contactState.name<1 && contactState.email <1 && contactState.message<1}>Send</Button>
+         <Button onClick={handleSubmit}>Send</Button>
      </Form>
      <br />
    </div>
@@ -50,5 +63,6 @@ function ContactForm() {
  )
 }
 
+// disabled={contactState.name < 1 || contactState.email < 1 || contactState.message < 1} for button for later, when the program is over, for homework submission an alert is required for the fields, but isntead id like to have the disabled feature.
 
 export default ContactForm
