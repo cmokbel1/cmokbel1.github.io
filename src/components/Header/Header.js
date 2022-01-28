@@ -20,7 +20,7 @@ const Header = (props) => {
           CLM
         </NavbarBrand>
         <NavbarToggler onClick={toggle}/>
-        <Collapse isOpen={isOpen} navbar>
+        <Collapse isOpen={isOpen} onClick={toggle} navbar>
           <Nav
             className="me-auto"
             navbar

@@ -1,11 +1,13 @@
-#root, html, body {
+#root, html {
   background-color: #282c34;
 }
 
 body {
+  background-color: #282c34 !important;
   padding-top: 40px;
   width: 100%;
   margin: 0;
+
 }
 
 .App {
@@ -62,7 +64,6 @@ h1 {
   text-align: center;
   background-color: rgb(25, 135, 84);
   color: whitesmoke;
-  margin-top: 250px;
   position: static;
   height: 50px;
 
@@ -89,4 +90,5 @@ h5 {
 
 .row {
   --bs-gutter-x: 1rem !important;
+  margin-right: 0 !important;
 }
