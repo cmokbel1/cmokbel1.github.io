@@ -51,7 +51,7 @@ body {
 
 h1 {
   text-align: center;
-  color: rgb(25,135,84);
+  color: rgb(25, 135, 84);
   font-family: monospace;
 }
 
@@ -60,8 +60,8 @@ h1 {
   background-color: rgb(25, 135, 84);
   color: whitesmoke;
   margin-top: 250px;
-  position:static;
-  height:50px;
+  position: static;
+  height: 50px;
 
 }
 
@@ -75,10 +75,14 @@ main {
 .white-border {
   border: 1px solid #FFF !important;
   padding-top: 10px;
-  padding-bottom:10px;
+  padding-bottom: 10px;
 }
 
 h5 {
-  text-align:center;
+  text-align: center;
   color: lightgoldenrodyellow
+}
+
+.row {
+--bs-gutter-x: 1rem !important;
 }
