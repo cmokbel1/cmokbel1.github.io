@@ -32,8 +32,8 @@ class App extends Component {
           <main>
             <Portfolio projects={projects} />
             <br />
-            <Footer />
           </main>
+          <Footer />
         </>
       )
     } else if (this.state.mode === 'contact') {
@@ -42,8 +42,8 @@ class App extends Component {
           <Header onLinkClick={this.onLinkClick} />
           <main>
             <ContactForm />
-            <Footer />
           </main>
+          <Footer />
         </>
       )
     } else {
@@ -52,8 +52,8 @@ class App extends Component {
           <Header onLinkClick={this.onLinkClick} />
           <main>
             <About />
-            <Footer />
           </main>
+          <Footer />
         </>
       )
     }

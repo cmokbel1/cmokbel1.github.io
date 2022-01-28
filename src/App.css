@@ -1,5 +1,8 @@
-body {
+#root, html, body {
   background-color: #282c34;
+}
+
+body {
   padding-top: 40px;
   width: 100%;
   margin: 0;
@@ -70,6 +73,7 @@ main {
   background-color: #282c34;
   color: whitesmoke;
   align-items: center;
+  min-height: calc(100vh - 50px);
 }
 
 .white-border {
@@ -84,5 +88,5 @@ h5 {
 }
 
 .row {
---bs-gutter-x: 1rem !important;
+  --bs-gutter-x: 1rem !important;
 }
