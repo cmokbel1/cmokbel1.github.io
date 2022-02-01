@@ -50,6 +50,11 @@ const Header = (props) => {
                 Resume
               </NavLink>
             </NavItem>
+            <NavItem>
+              <NavLink id="LinkedIn" href="https://www.linkedin.com/in/claude-mokbel-aa076788/">
+                LinkedIn
+              </NavLink>
+            </NavItem>
           </Nav>
           <NavbarText>
             Full Stack Web Developer

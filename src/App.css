@@ -54,7 +54,7 @@ body {
 } */
 
 
-h1 {
+h1,h6 {
   text-align: center;
   color: rgb(25, 135, 84);
   font-family: monospace;
