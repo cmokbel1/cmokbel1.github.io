@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/portfolio-react/static/css/main.0933bb80.css",
-    "main.js": "/portfolio-react/static/js/main.a9fa44d4.js",
+    "main.js": "/portfolio-react/static/js/main.aebc22e8.js",
     "static/js/787.aeca62f9.chunk.js": "/portfolio-react/static/js/787.aeca62f9.chunk.js",
     "static/media/selfie.png": "/portfolio-react/static/media/selfie.23ee143b1ac636e640fa.png",
     "static/media/CW.png": "/portfolio-react/static/media/CW.d345b3fc1bae9b731fbc.png",
     "static/media/4uWorkout.png": "/portfolio-react/static/media/4uWorkout.ec17878290acfa6e3f94.png",
     "static/media/dayplanner.png": "/portfolio-react/static/media/dayplanner.845006fa8335356a197f.png",
     "static/media/ReadMeGen.png": "/portfolio-react/static/media/ReadMeGen.160fda5044fe30e3c9b0.png",
+    "static/media/pocket-change.png": "/portfolio-react/static/media/pocket-change.8268a06e37144a3607f3.png",
     "static/media/SocialAPI.png": "/portfolio-react/static/media/SocialAPI.618d6b3b77f8523d7cab.png",
     "static/media/employee-tracker.png": "/portfolio-react/static/media/employee-tracker.b07ba9dbfdbc0b89fe1c.png",
     "static/media/weatherAPI.png": "/portfolio-react/static/media/weatherAPI.57984d9e18d2a64de5ce.png",
@@ -16,11 +17,11 @@
     "static/media/pwgen.png": "/portfolio-react/static/media/pwgen.bc1d57899f821079067d.png",
     "index.html": "/portfolio-react/index.html",
     "main.0933bb80.css.map": "/portfolio-react/static/css/main.0933bb80.css.map",
-    "main.a9fa44d4.js.map": "/portfolio-react/static/js/main.a9fa44d4.js.map",
+    "main.aebc22e8.js.map": "/portfolio-react/static/js/main.aebc22e8.js.map",
     "787.aeca62f9.chunk.js.map": "/portfolio-react/static/js/787.aeca62f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0933bb80.css",
-    "static/js/main.a9fa44d4.js"
+    "static/js/main.aebc22e8.js"
   ]
 }
