@@ -8,6 +8,8 @@ import image7 from './images/tbl.png';
 import image8 from './images/employee-tracker.png';
 import image9 from './images/CW.png';
 import image10 from './images/pwgen.png';
+import image11 from './images/pocket-change.png';
+
 
 const projects = [
   {
@@ -79,6 +81,13 @@ const projects = [
     gitHub: 'https://github.com/cmokbel1/Password-Generator',
     liveSite: 'https://cmokbel1.github.io/Password-Generator/ ',
     img: image10
+  },
+  {
+    title: 'Pocket Change',
+    description: 'A budgeting application that makes use of MongoDB for storing budgeting information for users on a monthly basis. Users can track their expenses and keep themselves within budget.',
+    gitHub: 'https://github.com/cmokbel1/pocket-change',
+    liveSite: 'https://pocketchange.herokuapp.com/',
+    img: image11
   }
 ]
 
