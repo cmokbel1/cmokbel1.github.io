@@ -22,19 +22,9 @@ function ContactForm() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    // if(!contactState.name) {
-    //   swal("Name Required")
-    // }
-    // else if (!contactState.email) {
-    //   swal("Email Required")
-    // }
-    // else if(!contactState.message) {
-    //   swal("Message Required")
-    // } else {
     swal(`name: ${contactState.name},
       email: ${contactState.email},
       message: ${contactState.message}`);
-    // }
   }
 
  return (
@@ -63,7 +53,5 @@ function ContactForm() {
    </>
  )
 }
-
-//  for button for later, when the program is over, for homework submission an alert is required for the fields, but isntead id like to have the disabled feature.
 
 export default ContactForm
