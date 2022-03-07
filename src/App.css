@@ -22,6 +22,14 @@ body {
   border: whitesmoke 2px solid;
 }
 
+.App-logo:hover {
+  width: calc(+10%);
+  height: 500px;
+  box-shadow: rgb(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+
 /* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -54,7 +62,7 @@ body {
 } */
 
 
-h1,h6 {
+h1, h6 {
   text-align: center;
   color: rgb(25, 135, 84);
   font-family: monospace;
