@@ -9,7 +9,7 @@ import image8 from './images/employee-tracker.png';
 import image9 from './images/CW.png';
 import image10 from './images/pwgen.png';
 import image11 from './images/pocket-change.png';
-
+import image12 from './images/calculator.png';
 
 const projects = [
   {
@@ -18,6 +18,13 @@ const projects = [
     gitHub: 'https://github.com/cmokbel1/chatWallet',
     liveSite: 'chat-wallet.herokuapp.com/',
     img: image9
+  },
+  {
+    title: 'Pocket Change',
+    description: 'A budgeting application that makes use of MongoDB for storing budgeting information for users on a monthly basis. Users can track their expenses and keep themselves within budget.',
+    gitHub: 'https://github.com/cmokbel1/pocket-change',
+    liveSite: 'https://pocketchange.herokuapp.com/',
+    img: image11
   },
   {
     title: 'Tech Blog',
@@ -83,11 +90,11 @@ const projects = [
     img: image10
   },
   {
-    title: 'Pocket Change',
-    description: 'A budgeting application that makes use of MongoDB for storing budgeting information for users on a monthly basis. Users can track their expenses and keep themselves within budget.',
-    gitHub: 'https://github.com/cmokbel1/pocket-change',
-    liveSite: 'https://pocketchange.herokuapp.com/',
-    img: image11
+    title: 'Calculator',
+    description: 'This is a vanilla JS project that allows users to calculate simple mathematic equations using addition, subtraction, multiplication, and division. Users can also see their previous calculations on screen in real time each time one is made.',
+    gitHub: 'https://github.com/cmokbel1/calculator',
+    liveSite: 'https://cmokbel1.github.io/calculator/',
+    img: image12
   }
 ]
 
