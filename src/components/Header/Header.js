@@ -46,7 +46,7 @@ const Header = (props) => {
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink id="resume" href="https://docs.google.com/document/d/1qDSDDD5YhWwbehIJk1GwWd21AXvW0KzKfo6XbMRJWbs/edit?usp=sharing">
+              <NavLink id="resume" href="../../images/myResume.pdf">
                 Resume
               </NavLink>
             </NavItem>
