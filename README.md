@@ -21,8 +21,8 @@
   Not much use involved. npm start to run the server and enjoy my amazing skills of web development.
 
   ## Licenses
-  Do What the F&%k You Want
-
+  MIT
+  
   ## Contributions
   if you make my website better than it is now, just send the update to me and i'll be sure to take full credit for the work you have done for me xD.
 
