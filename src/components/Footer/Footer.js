@@ -1,8 +1,8 @@
 import React from 'reactstrap'
 
-const Footer = (props) => {
+const Footer = () => {
   return (
-    <div id='foot'>
+    <div id='foot' className="navbar-dark bg-dark">
     <footer>
       <p>Copyright 2022 Claude Mokbel</p>
     </footer>

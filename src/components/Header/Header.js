@@ -11,10 +11,9 @@ const Header = (props) => {
   return (
     <>
       <Navbar
-        color="success"
         expand="md"
         fixed="top"
-        dark
+        className="navbar-dark bg-dark"
       >
         <NavbarBrand>
           CLM

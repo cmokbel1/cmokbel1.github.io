@@ -8,16 +8,16 @@ const ProjCard = (props) => {
   const { project } = props;
   return (
     <>
-      <Card color="dark" className="col-sm-3 mb-4 white-border">
+      <Card className="col-sm-3 border-primary mb-3">
+      <CardTitle className="card-header">{project.title}</CardTitle>
         <CardImg variant="top" src={project.img} />
         <CardBody>
-          <CardTitle>{project.title}</CardTitle>
           <CardText>
             {project.description}
           </CardText>
         </CardBody>
-        <Button variant="primary" color="info" href={project.gitHub}>GitHub</Button>
-        <Button variant="primary" color="warning" href={project.liveSite}>Live View</Button>
+        <Button variant="primary" color="primary" className="btn btn-primary" href={project.gitHub}>GitHub</Button>
+        <Button variant="secondary" className="btn btn-primary" href={project.liveSite}>Live View</Button>
     </Card>
     <br />
     </>
