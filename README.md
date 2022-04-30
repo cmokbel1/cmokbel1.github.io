@@ -1,6 +1,6 @@
 
   # React Portfolio
-  ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/cmokbel1/cmokbe1.github.io)
+  ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/cmokbel1/cmokbel1.github.io)
   ![Do What the F&%k You Want](https://img.shields.io/badge/Licence-MIT-green
 )
 
