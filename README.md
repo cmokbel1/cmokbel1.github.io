@@ -1,6 +1,6 @@
 
   # React Portfolio
-  ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/cmokbel1/portfolio-react)
+  ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/cmokbel1/cmokbe1.github.io)
   ![Do What the F&%k You Want](https://img.shields.io/badge/Licence-MIT-green
 )
 
@@ -32,8 +32,8 @@
   ## Questions
    For questions regarding the project, please use the following information:
   1. Username: cmokbel1
-  2. Repository: https://github.com/cmokbel1/portfolio-react
+  2. Repository: https://github.com/cmokbel1/cmokbel1.github.io
   3. E-mail: claudemokbel@gmail.com
   4. 
 ## Live Site
-https://cmokbel1.github.io/portfolio-react/
+https://cmokbel1.github.io
