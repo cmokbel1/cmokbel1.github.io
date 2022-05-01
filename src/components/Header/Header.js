@@ -7,7 +7,7 @@ const Header = (props) => {
   const toggle = () => setIsOpen(!isOpen);
 
   const onLinkClick = props.onLinkClick;
-  
+
   return (
     <>
       <Navbar
@@ -18,19 +18,19 @@ const Header = (props) => {
         <NavbarBrand>
           CLM
         </NavbarBrand>
-        <NavbarToggler onClick={toggle}/>
+        <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} onClick={toggle} navbar>
           <Nav
             className="me-auto"
             navbar
           >
             <NavItem>
-              <NavLink onClick={onLinkClick} id="portfolio">
+              <NavLink onClick={onLinkClick} id="portfolio" style={{ cursor: "pointer" }}>
                 Portfolio
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink onClick={onLinkClick} id="contact">
+              <NavLink onClick={onLinkClick} id="contact" style={{ cursor: "pointer" }}>
                 Contact
               </NavLink>
             </NavItem>
