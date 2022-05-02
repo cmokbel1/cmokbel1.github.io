@@ -27,16 +27,18 @@ main {
 h5 {
   text-align: center;
 }
+/* portfolio page */
 
 .row {
   --bs-gutter-x: 1rem !important;
   margin-right: 0 !important;
+  gap: 1em;
 }
 
-/* portfolio page */
-
 .small {
-  max-height: 35rem;
+  width:25rem;
+  height: 24rem;
+  min-height: 16rem;
   overflow: auto;
 }
 
