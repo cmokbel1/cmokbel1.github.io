@@ -13,9 +13,16 @@ h1, h6 {
 
 #foot {
   text-align: center;
-  position: static;
-  height: 50px;
+  height: 60px;
+  position: relative;
+}
 
+footer {
+  display: inline-block;
+}
+
+footer > p {
+  padding-top: 1rem;
 }
 
 main {
