@@ -10,8 +10,8 @@ const ProjCard = (props) => {
     <>
       <Card className="col-sm-3 border-primary mb-3 small">
       <CardTitle className="card-header">{project.title}</CardTitle>
-        <CardImg variant="top" src={project.img} />
-        <CardBody>
+        <CardImg className= "maxHeight" variant="top" src={project.img} />
+        <CardBody className="scroll">
           <CardText>
             {project.description}
           </CardText>

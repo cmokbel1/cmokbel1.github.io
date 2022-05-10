@@ -46,6 +46,12 @@ h5 {
   width:25rem;
   height: 24rem;
   min-height: 16rem;
+}
+
+.scroll {
   overflow: auto;
 }
 
+.maxHeight {
+  max-height: 12em;
+}
