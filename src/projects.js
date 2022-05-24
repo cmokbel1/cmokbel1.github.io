@@ -10,13 +10,15 @@ import image9 from './images/CW.png';
 import image10 from './images/pwgen.png';
 import image11 from './images/pocket-change.png';
 import image12 from './images/calculator.png';
+import image13 from './images/aiSandbox.png';
+
 
 const projects = [
   {
     title: 'Chat Wallet',
     description: 'Chat Wallet is an web based app that allows users to chat with other individuals about each others hobbies and interests. Users can register for an account, sign in, sign out and enter varying chatrooms that are developed using socket.io. this application uses passport and jsonwebtoken to authenticate users and verify user information for access to profile information and the chat rooms.',
     gitHub: 'https://github.com/cmokbel1/chatWallet',
-    liveSite: 'chat-wallet.herokuapp.com/',
+    liveSite: 'https://chat-wallet.herokuapp.com/',
     img: image9
   },
   {
@@ -58,21 +60,21 @@ const projects = [
     title: 'Day Planner',
     description: 'Users can open the webpage and plan out there day with a seamless process. One can save information by clicking save, and simply click the text area to edit and save again. When the hour comes to pass the slot will turn gray. when the hour is current it is red, and when it is a future time the slot is green.',
     gitHub: 'https://github.com/cmokbel1/Day-Planner',
-    liveSite: 'https://cmokbel1.github.io/Day-Planner/',
+    liveSite: 'https://claudemokbel.com/Day-Planner/',
     img: image4
   },
   {
     title: 'Chore Door Game',
     description: 'This game uses javascript to manipulate photos on the page. Users can click on doors until they find the chore bot! if they find the chore bot before they have clicked through all the doors, then they lose. if they find the chore bot last, they win! There is a fail safe that does not allow the user to click through the doors once the bot has been found. Therefore, users must restart if they lose.',
     gitHub: 'https://github.com/cmokbel1/Chore-Door-Game-Clone',
-    liveSite: 'https://cmokbel1.github.io/Chore-Door-Game-Clone/',
+    liveSite: 'https://claudemokbel.com/Chore-Door-Game-Clone/',
     img: image5
   },
   {
     title: 'Weather Forecast',
     description: '5 day forecast application that makes use of the openweathermap.org API to produce a forecast of any major city in the world. Users can further save the data they have recently researched in the side bar.',
     gitHub: 'https://github.com/cmokbel1/WeatherAPI',
-    liveSite: 'https://cmokbel1.github.io/WeatherAPI/',
+    liveSite: 'https://claudemokbel.com/WeatherAPI/',
     img: image6
   },
   {
@@ -86,15 +88,22 @@ const projects = [
     title: 'Password Generator',
     description: 'an application that randomizes passwords for users based on user specifications. Passwords can be between 8 and 128 characters long, contain uppercase or lowercase letter, special characters, or numbers.',
     gitHub: 'https://github.com/cmokbel1/Password-Generator',
-    liveSite: 'https://cmokbel1.github.io/Password-Generator/ ',
+    liveSite: 'https://claudemokbel.com/Password-Generator/ ',
     img: image10
   },
   {
     title: 'Calculator',
     description: 'This is a vanilla JS project that allows users to calculate simple mathematic equations using addition, subtraction, multiplication, and division. Users can also see their previous calculations on screen in real time each time one is made.',
     gitHub: 'https://github.com/cmokbel1/calculator',
-    liveSite: 'https://cmokbel1.github.io/calculator/',
+    liveSite: 'https://claudemokbel.com/calculator/',
     img: image12
+  },
+  {
+    title: 'Ai Sandbox',
+    description: 'An AI sandbox that allows a user to interact with an AI system that can respond to a wide array of interactions. From story telling to information about the weather.',
+    gitHub: 'https://github.com/cmokbel1/shopify-challenge',
+    liveSite: 'https://peaceful-everglades-82247.herokuapp.com/',
+    img: image13
   }
 ]
 
