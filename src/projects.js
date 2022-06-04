@@ -4,7 +4,6 @@ import image3 from './images/SocialAPI.png';
 import image4 from './images/dayplanner.png';
 import image5 from './images/chore-door.png';
 import image6 from './images/weatherAPI.png';
-import image7 from './images/tbl.png';
 import image8 from './images/employee-tracker.png';
 import image9 from './images/CW.png';
 import image10 from './images/pwgen.png';
@@ -15,13 +14,6 @@ import image13 from './images/aiSandbox.png';
 
 const projects = [
   {
-    title: 'Chat Wallet',
-    description: 'Chat Wallet is an web based app that allows users to chat with other individuals about each others hobbies and interests. Users can register for an account, sign in, sign out and enter varying chatrooms that are developed using socket.io. this application uses passport and jsonwebtoken to authenticate users and verify user information for access to profile information and the chat rooms.',
-    gitHub: 'https://github.com/cmokbel1/chatWallet',
-    liveSite: 'https://chat-wallet.herokuapp.com/',
-    img: image9
-  },
-  {
     title: 'Pocket Change',
     description: 'A budgeting application that makes use of MongoDB for storing budgeting information for users on a monthly basis. Users can track their expenses and keep themselves within budget.',
     gitHub: 'https://github.com/cmokbel1/pocket-change',
@@ -29,18 +21,18 @@ const projects = [
     img: image11
   },
   {
-    title: 'Tech Blog',
-    description: 'This project is a combination of methods learned in Javascript. Models and Routes are used to populate a seemingly empty webpage with blog posts created by users that are logged in via passport and authenticated with a json webtoken. User information is stored in a JAWSDB database using mySQL tables. Further, Users can comment on other posts made by other users given they are registered on the website.',
-    gitHub: 'https://github.com/cmokbel1/Tech-Blog',
-    liveSite: 'https://blog-about-it-techblog.herokuapp.com',
-    img: image7
-  },
-    {
     title: 'Social Media API',
     description: 'This project was built as a back-end development for a newly made social media company. One can create users, retrieve all or one of them, update a user and delete users. Further one can add friends and remove them. Users have the capability to create posts and leave comments via thoughts and reactions. We can delete thoughts and reactions as well. This project using a mongoDB that allows for seamless storage of unrelated data and makes it easy to retrieve as well.',
     gitHub: 'https://github.com/cmokbel1/Social-Media-API',
     liveSite: 'https://www.youtube.com/watch?v=D4DBZyZB4ro',
     img: image3
+  },
+  {
+    title: 'Chat Wallet',
+    description: 'Chat Wallet is an web based app that allows users to chat with other individuals about each others hobbies and interests. Users can register for an account, sign in, sign out and enter varying chatrooms that are developed using socket.io. this application uses passport and jsonwebtoken to authenticate users and verify user information for access to profile information and the chat rooms.',
+    gitHub: 'https://github.com/cmokbel1/chatWallet',
+    liveSite: 'https://chat-wallet.herokuapp.com/',
+    img: image9
   },
   {
     title: '4uWorkout',
