@@ -13,9 +13,9 @@ const Header = (props) => {
       <Navbar
         expand="md"
         fixed="top"
-        className="navbar-dark bg-dark"
+        className="navbar navbar-light bg-light"
       >
-        <NavbarBrand>
+        <NavbarBrand style={{ cursor: "pointer" }}>
           CLM
         </NavbarBrand>
         <NavbarToggler onClick={toggle} />
