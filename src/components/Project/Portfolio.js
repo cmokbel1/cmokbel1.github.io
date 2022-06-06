@@ -10,7 +10,7 @@ const Portfolio = (props) => {
     </div>
     <h3 className="title"><strong><u>Projects</u></strong></h3>
     <br></br>
-    <div className="row justify-content-center">
+    <div className="row justify-content-center text-center mx-auto">
       {projects.map((project, idx) => <ProjCard key={idx} project={project}/>)}
     </div>
     </>
