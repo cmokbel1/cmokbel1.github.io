@@ -37,8 +37,8 @@ const projects = [
   {
     title: '4uWorkout',
     description: 'This application allows users to generate random workouts based on specific body parts while simultaneously generating a playlist of music to go along with the workout.',
-    gitHub: 'https://github.com/cmokbel1/project_1',
-    liveSite: 'https://jazminejose.github.io/project_1/',
+    gitHub: 'https://github.com/cmokbel1/4uWorkout',
+    liveSite: 'http://claudemokbel.com/4uWorkout/',
     img: image1
   },
   {
