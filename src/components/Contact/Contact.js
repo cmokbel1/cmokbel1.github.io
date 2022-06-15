@@ -10,22 +10,22 @@ import swal from 'sweetalert';
 
 function ContactForm() {
 
-  const [contactState, setContactState] = useState({
-    name: '',
-    email: '',
-    message: ''
-  })
+  // const [contactState, setContactState] = useState({
+  //   name: '',
+  //   email: '',
+  //   message: ''
+  // })
 
-  const handleInputChange = ({ target: { name, value } }) => setContactState({ ...contactState, [name]: value })
+  // const handleInputChange = ({ target: { name, value } }) => setContactState({ ...contactState, [name]: value })
 
 
 
-  const handleSubmit = (event) => {
-    event.preventDefault();
-    swal(`name: ${contactState.name},
-      email: ${contactState.email},
-      message: ${contactState.message}`);
-  }
+  // const handleSubmit = (event) => {
+  //   event.preventDefault();
+  //   swal(`name: ${contactState.name},
+  //     email: ${contactState.email},
+  //     message: ${contactState.message}`);
+  // }
 
   return (
     <>
