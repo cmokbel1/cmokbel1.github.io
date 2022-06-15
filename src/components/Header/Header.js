@@ -29,11 +29,11 @@ const Header = (props) => {
                 Portfolio
               </NavLink>
             </NavItem>
-            <NavItem>
+            {/* <NavItem>
               <NavLink onClick={onLinkClick} id="contact" style={{ cursor: "pointer" }}>
                 Contact
               </NavLink>
-            </NavItem>
+            </NavItem> */}
             <NavItem>
               <NavLink id="git" href="https://github.com/cmokbel1">
                 GitHub
