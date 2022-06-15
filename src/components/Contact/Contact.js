@@ -30,7 +30,6 @@ function ContactForm() {
   return (
     <>
       <h5>mail: claudemokbel@gmail.com</h5>
-      <h6>tel: 714-362-7640</h6>
       <br />
       <div className="container">
         <Form>
