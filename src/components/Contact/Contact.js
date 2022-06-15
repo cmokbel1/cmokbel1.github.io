@@ -10,29 +10,29 @@ import swal from 'sweetalert';
 
 function ContactForm() {
 
-  // const [contactState, setContactState] = useState({
-  //   name: '',
-  //   email: '',
-  //   message: ''
-  // })
+  const [contactState, setContactState] = useState({
+    name: '',
+    email: '',
+    message: ''
+  })
 
-  // const handleInputChange = ({ target: { name, value } }) => setContactState({ ...contactState, [name]: value })
+  const handleInputChange = ({ target: { name, value } }) => setContactState({ ...contactState, [name]: value })
 
 
 
-  // const handleSubmit = (event) => {
-  //   event.preventDefault();
-  //   swal(`name: ${contactState.name},
-  //     email: ${contactState.email},
-  //     message: ${contactState.message}`);
-  // }
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    swal(`name: ${contactState.name},
+      email: ${contactState.email},
+      message: ${contactState.message}`);
+  }
 
   return (
     <>
       <h5>mail: claudemokbel@gmail.com</h5>
       <br />
       <div className="container">
-        {/* <Form>
+        <Form>
           <FormGroup>
             <Label for="name">Name</Label>
             <Input
@@ -66,7 +66,7 @@ function ContactForm() {
           <Button
             disabled={contactState.name < 1 || contactState.email < 1 || contactState.message < 1}
             onClick={handleSubmit}>Send</Button>
-        </Form> */}
+        </Form>
         <br />
       </div>
     </>

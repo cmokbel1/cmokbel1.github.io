@@ -18,24 +18,24 @@ class App extends Component {
     if (event.target.id === "portfolio") {
       this.setState({ mode: 'home' });
     }
-    if (event.target.id === "contact") {
-      this.setState({ mode: 'contact' });
-    }
+    // if (event.target.id === "contact") {
+    //   this.setState({ mode: 'contact' });
+    // }
   }
 
   render() {
 
-    if (this.state.mode === 'contact') {
-      return (
-        <>
-          <Header onLinkClick={this.onLinkClick} />
-          <main>
-            <ContactForm />
-          </main>
-          <Footer />
-        </>
-      )
-    } else {
+    // if (this.state.mode === 'contact') {
+    //   return (
+    //     <>
+    //       <Header onLinkClick={this.onLinkClick} />
+    //       <main>
+    //         <ContactForm />
+    //       </main>
+    //       <Footer />
+    //     </>
+    //   )
+    // } else {
       return (
         <>
           <Header onLinkClick={this.onLinkClick} />
@@ -46,7 +46,7 @@ class App extends Component {
           <Footer />
         </>
       )
-    }
+    // }
   }
 }
 export default App;
