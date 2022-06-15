@@ -32,7 +32,7 @@ function ContactForm() {
       <h5>mail: claudemokbel@gmail.com</h5>
       <br />
       <div className="container">
-        <Form>
+        {/* <Form>
           <FormGroup>
             <Label for="name">Name</Label>
             <Input
@@ -66,7 +66,7 @@ function ContactForm() {
           <Button
             disabled={contactState.name < 1 || contactState.email < 1 || contactState.message < 1}
             onClick={handleSubmit}>Send</Button>
-        </Form>
+        </Form> */}
         <br />
       </div>
     </>
