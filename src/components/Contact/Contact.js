@@ -36,17 +36,37 @@ function ContactForm() {
      <Form>
        <FormGroup>
          <Label for="name">Name</Label>
-         <Input id="name" name="name" onChange={handleInputChange} type="text" value={contactState.name} required></Input>
+         <Input 
+         id="name" 
+         name="name" 
+         onChange={handleInputChange} 
+         type="text" 
+         value={contactState.name} 
+         required></Input>
        </FormGroup>
        <FormGroup>
          <Label for="name">e-mail</Label>
-           <Input id="email" name="email" onChange={handleInputChange} type="text" value={contactState.email} required></Input>
+           <Input 
+           id="email" 
+           name="email" 
+           onChange={handleInputChange} 
+           type="text" 
+           value={contactState.email} 
+           required></Input>
        </FormGroup>
        <FormGroup>
          <Label for="name">Message</Label>
-           <Input id="message" name="message" onChange={handleInputChange} type="textarea" value={contactState.message} required></Input>
+           <Input 
+           id="message" 
+           name="message" 
+           onChange={handleInputChange} 
+           type="textarea" 
+           value={contactState.message} 
+           required></Input>
        </FormGroup>
-         <Button disabled={contactState.name < 1 || contactState.email < 1 || contactState.message < 1} onClick={handleSubmit}>Send</Button>
+         <Button 
+         disabled={contactState.name < 1 || contactState.email < 1 || contactState.message < 1} 
+         onClick={handleSubmit}>Send</Button>
      </Form>
      <br />
    </div>
