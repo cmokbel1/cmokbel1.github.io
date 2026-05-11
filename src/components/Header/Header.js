@@ -35,7 +35,7 @@ const Header = (props) => {
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink id="resume" href="myResume.pdf">
+              <NavLink id="resume" href="Resume.pdf">
                 Resume
               </NavLink>
             </NavItem>
