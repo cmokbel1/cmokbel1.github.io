@@ -3,11 +3,13 @@ import './portfolio.css'
 
 const Portfolio = (props) => {
   const { projects } = props;
+
   return (
     <>
       <div className="title container"><h1>Claude Mokbel</h1>
         <p>A recent graduate of the UCI Continued Education Full Stack Web Developer bootcamp.
-          I have 8 months of experience building web applications in HTML, CSS, and Javascript with mobile responsivity.
+          I have 2 years and 9 months of experience building web applications in HTML, CSS, and Javascript with mobile responsivity. 
+          In my career I have worked with javascript frameworks like Angular, Vue, and React.
           I am currently focused on learning data structures as well as algorithms, and improving my javascript skills.
         </p>
       </div>

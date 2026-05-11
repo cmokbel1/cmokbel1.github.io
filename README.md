@@ -18,16 +18,10 @@
   download files, navigate to containing folder in terminal, type `npm i` to install packages.
 
   ## Usage
-  Not much use involved. npm start to run the server and enjoy my amazing skills of web development.
+  Not much use involved. npm start to run the SPA
 
   ## Licenses
   MIT
-  
-  ## Contributions
-  if you make my website better than it is now, just send the update to me and i'll be sure to take full credit for the work you have done for me xD.
-
-  ## Tests
-  tested functionality of navigation bar, and the content inside the pages.
 
   ## Questions
    For questions regarding the project, please use the following information:

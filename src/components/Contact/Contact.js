@@ -64,7 +64,7 @@ function ContactForm() {
               required></Input>
           </FormGroup>
           <Button
-            disabled={contactState.name < 1 || contactState.email < 1 || contactState.message < 1}
+            disabled={contactState.name.length < 3 || contactState.email.length < 10 || contactState.message.length < 1}
             onClick={handleSubmit}>Send</Button>
         </Form>
         <br />

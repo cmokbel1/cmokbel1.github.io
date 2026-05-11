@@ -10,22 +10,17 @@ const Header = (props) => {
 
   return (
     <>
-      <Navbar
-        expand="md"
-        fixed="top"
-        className="navbar navbar-light bg-light"
-      >
-        <NavbarBrand style={{ cursor: "pointer" }}>
-          CLM
-        </NavbarBrand>
+      <Navbar expand="md" fixed="top" className="navbar navbar-light bg-light">
+        <NavbarBrand style={{ cursor: "pointer" }}>CLM</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} onClick={toggle} navbar>
-          <Nav
-            className="me-auto"
-            navbar
-          >
+          <Nav className="me-auto" navbar>
             <NavItem>
-              <NavLink onClick={onLinkClick} id="portfolio" style={{ cursor: "pointer" }}>
+              <NavLink
+                onClick={onLinkClick}
+                id="portfolio"
+                style={{ cursor: "pointer" }}
+              >
                 Portfolio
               </NavLink>
             </NavItem>
@@ -45,14 +40,14 @@ const Header = (props) => {
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink id="LinkedIn" href="https://www.linkedin.com/in/claude-mokbel-aa076788/">
+              <NavLink
+                id="LinkedIn"
+                href="https://www.linkedin.com/in/claude-mokbel/"
+              >
                 LinkedIn
               </NavLink>
             </NavItem>
           </Nav>
-          <NavbarText>
-            Full Stack Web Developer
-          </NavbarText>
         </Collapse>
       </Navbar>
     </>
